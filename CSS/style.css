@@ -315,8 +315,97 @@ section.depoimento .depoimentos-single {
     float: left;
     width: calc(100% / 9);
     padding-top: calc(100% / 9);
-    background-color: blue;
+    background-color: gray;
     border: 6px solid white;
+}
+
+section.contato {
+    padding: 60px 2%;
+}
+
+section.contato h2 {
+    color: #698293;
+    text-align: center;
+    font-size: 18px;
+}
+
+section.contato form {
+    width: 100%;
+    margin: 30px auto;
+    max-width: 500px;
+}
+
+.form-wraper {
+    float: left;
+    padding: 0 10px;
+    margin-top: 10px;
+}
+
+.w100 {
+    width: 100%;
+}
+
+.w50 {
+    width: 50%;
+}
+
+.form-wraper label {
+    font-size: 15px;
+    color: #b4b4b4;
+}
+
+.form-wraper input[type=text] {
+    width: 100%;
+    height: 35px;
+    line-height: 35px;
+    padding-left: 9px;
+    border: 1px solid #dadada;
+    margin-top: 8px;
+}
+
+.form-wraper textarea {
+    width: 100%;
+    padding: 8px;
+    height: 121px;
+    resize: none;
+    border: 1px solid #dadada;
+}
+
+.form-wraper input[type=submit] {
+    width: 100px;
+    height: 35px;
+    display: inline-block;
+    border: 0;
+    background-color: #688293;
+    color: white;
+    cursor: pointer;
+}
+
+footer {
+    padding: 40px 2%;
+    background-color: #688293;
+}
+
+footer .container {
+    max-width: 1000px;
+}
+
+footer .footer-block {
+    float: left;
+    width: 33.3%;
+    
+}
+
+.footer-block h2 {
+    color: white;
+    font-weight: normal;
+    font-size: 18px;
+}
+
+.footer-block p {
+    margin-top: 8px;
+    color: white;
+    font-size: 14px;
 }
 
 @media screen and (max-width: 1024px) {
@@ -331,6 +420,16 @@ section.depoimento .depoimentos-single {
 }
 
 @media screen and (max-width: 768px) {
+    footer {
+        text-align: center;
+    }
+
+    footer .footer-block {
+        float: none;
+        width: 100%; 
+        margin: 30px 0;
+    }
+
     nav.menu-desktop {
         display: none;
     }
@@ -440,6 +539,9 @@ section.depoimento .depoimentos-single {
         /*background-color: green;*/
         padding-top: calc(100% * 0.6);
     }
-        
+       
+    .w50 {
+        width: 100%;
+    }
 }
 
